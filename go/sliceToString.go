@@ -1,5 +1,7 @@
 import "strconv"
 
+// Note: sometimes it will be faster to weave this logic into a loop that 
+// already exists in your algorithm.
 func intSliceToString(nums []int) string {
     if len(nums) == 0 {
         return ""
