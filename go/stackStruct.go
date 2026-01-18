@@ -1,7 +1,6 @@
 // A struct for making workig with stacks nice and easy.
 // This isn't necessary for most problems as we can just use the array,
-// thoughbeit that's a bit messier. For strings, we can use a stringbuilder as
-// a stack of chars.
+// thoughbeit that's a bit messier. 
 type stack[T any] struct {
 	data []T
 }
